@@ -3,42 +3,40 @@ import axios from "axios";
 
 export default function Weather (){
     return (
-        <div class="container">
-        <div class="weather-app-wrapper">
-        <div class="weather-app">
-            <form id="search-form" class="mb-3">
-                <div class="row">
-                <div class="col-9">
+        <div className="container">
+        <div className="weather-app-wrapper">
+        <div className="weather-app">
+            <form className="mb-3">
+                <div className="row">
+                <div className="col-9">
                 <input 
                 type="search" 
                 placeholder="Enter a city..."
-                class="form-control" 
-                id="city-input"
                 autocomplete="off"
                 />
                 </div>
-                <div class="col-3">
-                <input type="submit" value="Search" class="btn btn-primary w-100" />
+                <div className="col-3">
+                <input type="submit" value="Search" className="btn btn-primary w-100" />
                 </div>
                 </div>
             </form>
-            <div class="overview">
+            <div className="overview">
    <h1>Tokyo</h1>
    <ul>
        <li>Last updated: Monday 23:20</li>
        <li>Scattered clouds</li>
    </ul>
 </div>
-   <div class="row">
-       <div class="col-6">
-           <div class="clearfix weather-temperature">
+   <div className="row">
+       <div className="col-6">
+           <div className="clearfix weather-temperature">
             
-           <span class="float-left">
+           <span className="float-left">
                <strong>10</strong> °C| °F
            </span>
            </div>
         </div>
-       <div class="col-6">
+       <div className="col-6">
            <ul>
                <li>
                    Humidity: 20 %
@@ -51,7 +49,7 @@ export default function Weather (){
    </div>
 </div>
 <small>
-       <a href="https://github.com/SoHo21/the-weather-app" target="_blank">Open-source code</a> by Sofia
+       <a href="https://pensive-meninsky-2071d5.netlify.app/">Open-source code</a> by Sofia
    </small>
 </div>
 </div>
