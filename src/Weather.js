@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+
 
 export default function Weather (){
     return (
@@ -22,36 +22,38 @@ export default function Weather (){
             </form>
             <div className="overview">
    <h1>Tokyo</h1>
-   <ul>
-       <li>Last updated: Monday 23:20</li>
-       <li>Scattered clouds</li>
-   </ul>
-</div>
+   </div>
    <div className="row">
-       <div className="col-6">
-           <div className="clearfix weather-temperature">
-            
-           <span className="float-left">
-               <strong>10</strong> °C| °F
-           </span>
-           </div>
-        </div>
+   <div className="col-6">
+           <ul>
+               <li>
+                   Last updated: Monday 23:20
+                   </li>
+               <li>
+                   Scattered clouds
+                   </li>
+           </ul>
+       </div>
        <div className="col-6">
            <ul>
                <li>
                    Humidity: 20 %
-               </li>
+                   </li>
                <li>
                    Wind: 5 km/h
-               </li>
+                   </li>
            </ul>
-       </div>
-   </div>
-</div>
+           </div>
+           </div>
+           <div className="clearfix weather-temperature">
+               <strong>10</strong> °C| °F
+           </div>
+           </div>
 <small>
        <a href="https://pensive-meninsky-2071d5.netlify.app/">Open-source code</a> by Sofia
    </small>
 </div>
 </div>
+
     )
 }
