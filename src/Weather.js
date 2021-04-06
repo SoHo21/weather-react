@@ -50,10 +50,9 @@ export default function Weather (){
            </div>
            </div>
 <small>
-       <a href="https://pensive-meninsky-2071d5.netlify.app/">Open-source code</a> by Sofia
+       <a href="https://github.com/SoHo21/weather-react" target="_blank">Open-source code</a> by Sofia
    </small>
 </div>
 </div>
-
     )
 }
